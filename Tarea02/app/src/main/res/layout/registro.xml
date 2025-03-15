@@ -9,6 +9,17 @@
     tools:context=".RegistroActivity">
 
     <TextView
+        android:id="@+id/tituloToyStoree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Toy Storee"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/tituloRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,7 +34,7 @@
         android:id="@+id/usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nombre completo"
+        android:hint="Usuario"
         android:inputType="textPersonName"
         android:layout_marginBottom="8dp"/>
 
@@ -36,18 +47,11 @@
         android:layout_marginBottom="8dp"/>
 
     <EditText
-        android:id="@+id/contrasenaUsuario"
+        android:id="@+id/contrasena"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Contraseña"
         android:inputType="textPassword"
-        android:layout_marginBottom="16dp"/>
-
-    <CheckBox
-        android:id="@+id/aceptarTerminos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Acepto los términos y condiciones"
         android:layout_marginBottom="16dp"/>
 
     <RadioGroup
@@ -68,6 +72,13 @@
             android:layout_height="wrap_content"
             android:text="Comprador ocasional"/>
     </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/aceptarTerminos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acepto los términos y condiciones"
+        android:layout_marginBottom="16dp"/>
 
     <Button
         android:id="@+id/btnRegistrar"
