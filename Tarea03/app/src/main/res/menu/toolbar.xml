@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/buscar"
+        android:title="Buscar"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_mas"
+        android:title="Más opciones"
+        android:icon="@drawable/more_vert"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_informacion"
+                android:title="Información" />
+
+            <item
+                android:id="@+id/action_ajustes"
+                android:title="Ajustes" />
+
+            <item
+                android:id="@+id/action_ayuda"
+                android:title="Ayuda" />
+        </menu>
+    </item>
+</menu>
