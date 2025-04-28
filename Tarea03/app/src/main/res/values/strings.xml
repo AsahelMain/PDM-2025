@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Tarea02</string>
+    <string name="abrir_cajon">Abrir menú</string>
+    <string name="cerrar_cajon">Cerrar menú</string>
 </resources>
